@@ -12,7 +12,7 @@ def draw():
     if py5.is_mouse_pressed:
          py5.stroke(py5.color(random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)))
          py5.stroke_weight(random.randint(0, 20))
-         py5.point(py5.mouse_x - random.randint(0, 20) , py5.mouse_y - random.randint(0, 20))
+         py5.point(py5.mouse_x - random.randint(0, 30) , py5.mouse_y - random.randint(0, 30))
 
 py5.run_sketch()
   
